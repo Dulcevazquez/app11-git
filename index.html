@@ -1,0 +1,352 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sexta Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app6.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/> 
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head><body onLoad="MM_preloadImages('imagenes/a.jpg','../app6/imagenes/5-mayo.jpg')">
+
+
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Batalla de Puebla</h1>
+</div>
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-fisrt-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>4 de Mayo</h2>
+<p>Muestra informacion sobre la Batalla del 4 de Mayo.</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>5 de Mayo</h2>
+<p>Muestra la Historia de la Batalla del 5 de Mayo.</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Inicio del conflicto</h2>
+<p>Se muestran Antecedentes de la Batalla.</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Personajes Historicos de la Batalla de Puebla</h2>
+<p>Estos son algunos Personajes</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Museos</h2>
+<p>A continuación se muestran museos</p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="128" height="128">
+</div>
+<div>
+<h4> Aplicacion Seis </h4>
+<h4>Dulce Maria Vazquez Ximil</h4
+></div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Batalla del 4 de Mayo</h1>
+
+</div>
+<div data-role="content" align="left">
+<div>
+<p>La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las 	inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México.1
+Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla.</p>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>4 de mayo</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/batalla-de-puebla[1].jpg',1)"><img src="imagenes/-BATALLA-DEL-5.jpg" name="Image29" width="435" height="255" id="Image29"></a> </div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Atlixco</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/batalla.jpg',1)"><img src="imagenes/300px-BattleofPuebla2.jpg" width="620" height="454" id="Image13"></a> </div>
+</div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+<h4>Aplicacion Seis, DMVX</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>5 de Mayo </h1>
+</div>
+<div data-role="content" align="left">
+<div>
+ <p>>Benito Juárez quien recientemente había sido elegido Presidente de México, suspendió los pagos de la deuda externa por dos años, ya que el país tenía una crisis financiera; así los franceses, españoles e ingleses vinieron a México con el fin de cobrarse a la fuerza la deuda.
+Pero los ingleses y los españoles se marcharon sin conseguir nada, en contraste los franceses no pensaban irse hasta haber triunfado, ya que Napoleón III pensaba establecer en México una monarquía favorable para Francia.
+Las tropas francesas estaban muy bien equipadas y eran mucho más grandes que el ejercito Mexicano; por lo que Benito Juárez convocó a toda la población a que luchara, así se formó un ejército de aproximadamente 4800 hombres.</p>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Batalla de Puebla</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div>
+<img src="imagenes/imag2.jpg" width="50%" height="50%"> </div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1></h1>
+<div>
+<p></p>
+<br>
+</div>
+<div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','../app6/imagenes/5-mayo.jpg',1)"><img src="../app6/imagenes/5_de_mayo.jpg" width="430" height="333" id="Image31"></a> </div>
+</div>
+</div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		
+        <li><img src="data1/images/5_de_mayo.jpg" alt="5_de_mayo" title="5_de_mayo" id="wows1_0"/></li>
+		<li><img src="data1/images/5mayo.jpg" alt="5-mayo" title="5-mayo" id="wows1_1"/></li>
+		<li><img src="data1/images/300pxbattleofpuebla2.jpg" alt="300px-BattleofPuebla2" title="300px-BattleofPuebla2" id="wows1_2"/></li>
+		<li><img src="data1/images/batalla.jpg" alt="batalla" title="batalla" id="wows1_3"/></li>
+		<li><img src="data1/images/batalladel5.jpg" alt="-BATALLA-DEL-5" title="-BATALLA-DEL-5" id="wows1_4"/></li>
+		<li><img src="data1/images/batalladepuebla1.jpg" alt="batalla-de-puebla[1]" title="batalla-de-puebla[1]" id="wows1_5"/></li>
+		<li><img src="data1/images/images_1.jpg" alt="images (1)" title="images (1)" id="wows1_6"/></li>
+		<li><img src="data1/images/images_2.jpg" alt="images (2)" title="images (2)" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/images_3.jpg" alt="bootstrap slider" title="images (3)" id="wows1_8"/></a></li>
+		<li><img src="data1/images/images_4.jpg" alt="images (4)" title="images (4)" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="5_de_mayo"><span><img src="data1/tooltips/5_de_mayo.jpg" alt="5_de_mayo"/>1</span></a>
+		<a href="#" title="5-mayo"><span><img src="data1/tooltips/5mayo.jpg" alt="5-mayo"/>2</span></a>
+		<a href="#" title="300px-BattleofPuebla2"><span><img src="data1/tooltips/300pxbattleofpuebla2.jpg" alt="300px-BattleofPuebla2"/>3</span></a>
+		<a href="#" title="batalla"><span><img src="data1/tooltips/batalla.jpg" alt="batalla"/>4</span></a>
+		<a href="#" title="-BATALLA-DEL-5"><span><img src="data1/tooltips/batalladel5.jpg" alt="-BATALLA-DEL-5"/>5</span></a>
+		<a href="#" title="batalla-de-puebla[1]"><span><img src="data1/tooltips/batalladepuebla1.jpg" alt="batalla-de-puebla[1]"/>6</span></a>
+		<a href="#" title="images (1)"><span><img src="data1/tooltips/images_1.jpg" alt="images (1)"/>7</span></a>
+		<a href="#" title="images (2)"><span><img src="data1/tooltips/images_2.jpg" alt="images (2)"/>8</span></a>
+		<a href="#" title="images (3)"><span><img src="data1/tooltips/images_3.jpg" alt="images (3)"/>9</span></a>
+		<a href="#" title="images (4)"><span><img src="data1/tooltips/images_4.jpg" alt="images (4)"/>10</span></a>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<div data-role="footer" data-theme="a" data-position="fixed">
+<h4> Aplicacion Seis, DMVX</h4>
+</div>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Inicio del conflicto</h1>
+    </div>
+    <div data-role="content" align="left">
+      <div>
+<p>Debido principalmente a la cantidad de deudas, , Inglaterra y España subscribieron el Convenio de Londres, por el cual se comprometieron a intervenir por el uso de la fuerza en México para reclamar sus derechos como acreedores, mientras tanto el Presidente Benito Juárez declaró suspendidos los compromisos adquiridos y aplazó pagar la deuda a las naciones europeas.</p></div>
+       </div>
+       <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1></h1>
+<div>
+<p></p>
+<br>
+</div>
+<div><img src="imagenes/images6.jpg" name="Image" width="50%" height="50%" id="Image"></div>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://kiworo.blogspot.mx/" target="_self" id="beep" data-role="button">
+      <h2> Conoce más </h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="http://www.mitos-mexicanos.com/leyendas-cortas/nino-la-batalla-del-5-mayo.html" target="_self" id="vibrar" data-role="button">
+         <h2>Leyenda de la batalla de Puebla </h2>
+         </a>
+        </li>
+      </ul>
+    </div>
+</div> 
+<div data-role="footer" data-theme="a" data-position="fixed">
+<h4> Aplicacion Seis,DMVX</h4>
+</div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+        <h4>Aplicacion Seis, DMVX</h4>
+        </div>
+        </div>
+        
+        
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Personajes Históricos</h1>
+    </div>
+    <div data-role="content" align="left">
+      <div>
+        <p>Ignacio Zaragoza Seguin: (24 de marzo de 1829 - 8 de septiembre de 1862) fue un militar mexicano reconocido como el héroe de la Batalla de Puebla, que tuvo lugar el 5 de mayo de 1862, cuando el ejército mexicano derrotó al ejército francés de élite al mando de Charles Ferdinand Latrille (Conde de Lorencez), considerado en su momento el mejor del mundo.</p>
+         <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Ignacio Zaragoza</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div><img src="imagenes/Zaragoza.jpg" name="Image" width="50%" height="50%" id="Image"></div>
+</div>
+</div>
+<p>José de la Cruz Porfirio Díaz Mori1: (Oaxaca de Juárez, Oaxaca, 15 de septiembre de 1830 - París, Francia, 2 de julio de 1915) fue un militar mexicano,2 que ejerció el cargo de presidente de México en siete ocasiones; la primera, del 24 de noviembre de 1876 al 6 de diciembre de 1876 (después del triunfo de la Revolución de Tuxtepec, desempeñando el cargo de forma interina); y la segunda vez, del 17 de febrero de 1877 al 5 de mayo de 1877. </p>
+ <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Porfirio Díaz</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div><img src="imagenes/PORFIRIO.jpg" name="Image" width="50%" height="50%" id="Image"></div>
+</div>
+</div>
+<p>Miguel Negrete Novoa: (Tepeaca, Puebla, 8 de mayo de 1824 — Ciudad de México, 5 de enero de 1897) fue un militar mexicano, participó durante las guerras civiles del siglo XIX, así como durante las intervenciones de Estados Unidos y Francia. Fue ministro de Guerra durante la presidencia de Benito Juárez.</p>
+        <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Miguel Negrete Novoa</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div><img src="imagenes/miguel.jpg" name="Image" width="50%" height="50%" id="Image"></div>
+</div>
+</div>
+        </div>
+      </div>
+      <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4>Aplicacion Seis, DMVX</h4>
+      </div>
+      </div>
+      
+      
+     <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Museos </h1>
+    </div>
+<div data-role="content" align="center">
+      <div>
+        <p>Una de las más grandes batallas que ha librado el país tuvo lugar en la ciudad de Puebla, la batalla del 5 de mayo de 1862. En la zona de los fuertes, en el mismo escenario del pasado, se ubica el museo interactivo.
+El recorrido por el museo utiliza la tecnología más puntera para narrar las acciones militares y la biografía de héroes nacionales como Negrete, Díaz y Zaragoza. Pantallas táctiles, proyecciones en 3-D y contenidos interactivos descargables en dispositivos ofrecen una experiencia única al visitante.</p>
+</div>
+ <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1></h1>
+<div>
+<p></p>
+<br>
+</div>
+<div>
+<img src="imagenes/descarga1.jpg" name="Image2" width="50%" height="50%" id="Image2"> </div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1></h1>
+<div>
+<p></p>
+<br>
+</div>
+<div>
+<img src="imagenes/descarga2.jpg" width="50%" height="50%"></div>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://www.pueblanoticias.com.mx/noticia/visite-el-museo-interactivo-de-la-batalla-de-puebla-5-de-mayo-70293/" target="_self" id="beep" data-role="button">
+      <h2> Museo </h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="https://www.mexicodestinos.com/blog/2013/01/lugares-turisticos-de-puebla/" target="_self" id="vibrar" data-role="button">
+         <h2>Puebla </h2>
+         </a>
+        </li>
+      </ul>
+    </div>
+</div> 
+
+      <div data-role="footer" data-theme="a" data-position="fixed">
+        <h4>Aplicacion Seis, DMVX</h4>
+      </div>
+     </div>
+     
+     
+     
+     
+</body>
+</html>
